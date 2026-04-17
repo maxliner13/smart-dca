@@ -12,11 +12,7 @@ require_auth()
 
 # ② imports หลัก (โหลดหลัง login เท่านั้น)
 import pandas as pd
-import subprocess, sys
-    subprocess.run([sys.executable, "-m", "pip", "install", "plotly==5.18.0"])
-    import plotly.graph_objects as go
-    import plotly.express as px
-    from plotly.subplots import make_subplots
+import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 import sys, os
